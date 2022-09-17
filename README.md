@@ -5,6 +5,10 @@ https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/
 
 https://docs.microsoft.com/en-us/training/paths/create-azure-app-service-web-apps/
 
+https://learn.microsoft.com/ru-ru/training/modules/configure-web-app-settings/3-configure-general-settings
+
 https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure
+
+
 
 
