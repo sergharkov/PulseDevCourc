@@ -1,6 +1,6 @@
 # PulseDevCourc
 Devops Labs
-L1
+Lab1</br>
 https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_01.html<br>
 https://docs.microsoft.com/en-us/training/paths/create-azure-app-service-web-apps/</br>
 https://learn.microsoft.com/ru-ru/training/modules/configure-web-app-settings/3-configure-general-settings<br/>
@@ -9,7 +9,6 @@ https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure
 DEploy Az blob storage:
 Terraform ../L1/main.tf
 
-
 Commands:</br>
 AppEx1:</br>
 Az login
@@ -17,13 +16,21 @@ az webapp list --resource-group webapp-rg --query "[?starts_with(name, 'webappks
 az webapp list --resource-group webapp-rg --query "[?starts_with(name, 'webappksiawebapp')].{Name:name}" --output tsv
 az webapp deployment source config-zip --resource-group webapp-rg --src api.zip --name webappksiawebapp
 
-
 AppEx2:</br>
 Az login
 az webapp list --resource-group webapp-rg --query "[?starts_with(name, 'imgwebksi')]"
 az webapp list --resource-group webapp-rg --query "[?starts_with(name, 'imgwebksi')].{Name:name}" --output tsv
 az webapp deployment source config-zip --resource-group webapp-rg --src web.zip --name imgwebksi
 
+----------------------------------------------------------------------------------------------------------</br>
+Lab2</br>
+ https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_02.html</br>
+ https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_03.html</br>
+Notes:</br>
+https://learn.microsoft.com/en-us/training/paths/implement-azure-functions/</br>
+https://learn.microsoft.com/en-us/training/paths/develop-solutions-that-use-blob-storage/</br>
 
+
+----------------------------------------------------------------------------------------------------------</br>
 
 
