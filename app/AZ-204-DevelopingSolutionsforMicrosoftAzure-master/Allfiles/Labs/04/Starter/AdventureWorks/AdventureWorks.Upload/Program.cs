@@ -11,12 +11,12 @@
 
     public class Program
     {
-        private const string EndpointUrl = "";
-        private const string AuthorizationKey = "";
+        private const string EndpointUrl = "https://polyglotdata-ksi.documents.azure.com:443/";
+        private const string AuthorizationKey = "6YaqZlPsYAkhhqDHsA3fVYJRvOiz9vqwpAlqKHq8ADhbsySIxURunHiAIw7JO58YW3yUutNhAv9JxUtt7GNHCA==";
         private const string DatabaseName = "Retail";
         private const string ContainerName = "Online";
-        private const string PartitionKey = "";
-        private const string JsonFilePath = "";
+        private const string PartitionKey = "/Category";
+        private const string JsonFilePath = "D:\\Infopulse\\Cource\\app\\AZ-204-DevelopingSolutionsforMicrosoftAzure-master\\Allfiles\\Labs\\04\\Starter\\AdventureWorks\\AdventureWorks.Upload\\models.json";
 
         static private int amountToInsert;
         static List<Model> models;
